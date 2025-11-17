@@ -1,0 +1,11 @@
+name-version.extension*,license*,copyrights*,end-of-support,dependencies,language,repository,email,URL
+mscorlib-6.0.dll,MIT,,,,,,,
+WinSCPnet-6.3.4.dll,MPL-2.0,,,,,,,
+os-3.8.py,PSF,,,,,,,
+glob-3.8.py,PSF,,,,,,,
+datetime-3.8.py,PSF,,,,,,,
+matplotlib.pyplot-3.7.1.py,PSF,,,,,,,
+numpy.fromnumeric-1.24.2.py,,,,,,,,
+scipy.interpolate-1.10.1.py,,,,,,,,
+mpl_toolkits.basemap-1.3.7.pth,PSF,,,,,,,
+pyproj.proj-3.4.py,MIT,,,,,,,
