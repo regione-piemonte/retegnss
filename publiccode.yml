@@ -1,5 +1,5 @@
 publiccodeYmlVersion: 0.4.0
-name: GNSSCOMP
+name: RETEGNSS
 applicationSuite: RETEGNSS
 url: https://github.com/regione-piemonte/retegnss.git
 landingURL: https://github.com/regione-piemonte/retegnss
