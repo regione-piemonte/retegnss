@@ -1,16 +1,22 @@
-publiccodeYmlVersion: 0.4.0
+publiccodeYmlVersion: 0.5.0
 name: GNSSCOMP
 applicationSuite: RETEGNSS
-url: https://github.com/regione-piemonte/....
+url: https://githttps://github.com/regione-piemonte/retegnss/.git
 landingURL: https://github.com/regione-piemonte/....
 softwareVersion: 1.0.0
-releaseDate: 2025-..-..
+releaseDate: 2025-11-20
 platforms:
-  - desktop
+  - windows
+  - linux
 categories:
   - geographic-information-systems
   - data-analytics
   - data-visualization
+organisation:
+  uri: urn:x-italian-pa:r_piemon
+fundedBy:
+  - name: Regione Piemonte
+    uri: urn:x-italian-pa:r_piemon
 usedBy:
   - Regione Piemonte
 developmentStatus: stable
@@ -18,16 +24,24 @@ softwareType: standalone/desktop
 description:
   it:
     shortDescription: Procedure per la compensazione periodica delle reti GNSS
-    longDescription: >-
-      Il progetto permette di svolgere la compensazione geodetica di una rete di stazioni permanenti in modo automatico.
-      I risultati prodotti dal software GNSSCOMP sono le coordinate cartografiche, di elevata precisione, di una rete di stazioni GNSS definita dall'operatore ad una o più epoche di calcolo anch'esse definite a priori.
-      Il software produce inoltre i grafici delle serie storiche delle stazioni permanenti che mostrano il loro spostamento nel tempo in planimetria ed altimetria. Dalle serie storiche vengono infine ricavate e graficizzate le velocità di spostamento.
-      Il calcolo geodetico è eseguito nei sistemi di riferimento (SR) IGS14 o IGS20. Le coordinate ottenute dal calcolo vengono convertite nel SR nazionale ETRF2000 e nel SR internazionale ITRF2020, e proiettate nel sistema UTM-32.
-      Il software è rivolto ad operatori specializzati che si occupano della gestione di una rete di stazioni permanenti.
-
+    longDescription: Il progetto permette di svolgere la compensazione geodetica di
+      una rete di stazioni permanenti in modo automatico. I risultati prodotti
+      dal software GNSSCOMP sono le coordinate cartografiche, di elevata
+      precisione, di una rete di stazioni GNSS definita dall'operatore ad una o
+      più epoche di calcolo anch'esse definite a priori. Il software produce
+      inoltre i grafici delle serie storiche delle stazioni permanenti che
+      mostrano il loro spostamento nel tempo in planimetria ed altimetria. Dalle
+      serie storiche vengono infine ricavate e graficizzate le velocità di
+      spostamento. Il calcolo geodetico è eseguito nei sistemi di riferimento
+      (SR) IGS14 o IGS20. Le coordinate ottenute dal calcolo vengono convertite
+      nel SR nazionale ETRF2000 e nel SR internazionale ITRF2020, e proiettate
+      nel sistema UTM-32. Il software è rivolto ad operatori specializzati che
+      si occupano della gestione di una rete di stazioni permanenti.
     features:
-      - Parametrizzazione del calcolo di compensazione geodetico 
-      - Esecuzione della processo di compensazione che consiste nel reperire i dati di input, elaborarli tramite protocolli definiti, e infine produrre i risultati in forma grafica e testuale
+      - Parametrizzazione del calcolo di compensazione geodetico
+      - Esecuzione della processo di compensazione che consiste nel reperire i
+        dati di input, elaborarli tramite protocolli definiti, e infine produrre
+        i risultati in forma grafica e testuale
       - Visualizzazione dei risultati ottenuti in forma testuale e grafica
       - Visualizzazione dei log relativi all'esecuzione del processo
     screenshots:
@@ -38,7 +52,6 @@ description:
       - screenshots/GNSSCOMP-5.png
       - screenshots/GNSSCOMP-6.png
       - screenshots/GNSSCOMP-7.png
-      
 legal:
   license: EUPL-1.2
 maintenance:
@@ -50,7 +63,3 @@ localisation:
   localisationReady: false
   availableLanguages:
     - it-IT
-it:
-  countryExtensionVersion: "1.0"
-  riuso:
-    codiceIPA: r_piemon
